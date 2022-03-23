@@ -88,6 +88,7 @@ local L = {
     template = { M.double_hash },
     tmux = { M.hash },
     toml = { M.hash },
+    tsx = { M.cxx_l, M.cxx_b }, -- Alias for `typescriptreact` bcz `tsx` is the parser's name
     typescript = { M.cxx_l, M.cxx_b },
     typescriptreact = { M.cxx_l, M.cxx_b },
     vim = { '"%s' },
