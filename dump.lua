@@ -22,6 +22,7 @@
 -- [x] `ignore` as a function
 -- [x] Return the operator's starting and ending position in pre and post hook
 -- [x] Restore cursor position in some motion operator (try `gcip`)
+-- [x] Dot support for `[count]gcc` and `[count]gbc`
 -- [ ] Doc comment ie. /** */ (for js)
 -- [ ] Header comment
 
@@ -40,7 +41,6 @@
 -- [x] no padding support in block-x
 
 -- THINK:
--- [ ] Dot support for `[count]gcc` and `[count]gbc`
 -- [ ] Parse `comments` if block comment is missing in the plugin
 
 -- ITS_OK:
